@@ -237,6 +237,20 @@ body {
     color: #FFFFFF;
 }
 
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    position: absolute;
+    top: 965px;
+    left: 119px;
+}
+  .grid-item {
+    width: 346px;
+    height: 391px;
+    padding-right: 67px;
+    padding-bottom: 62px;
+}
+
 .card {
     box-sizing: border-box;
     position: absolute;
@@ -245,36 +259,6 @@ body {
     background: #1F1F1F;
     border: 3px solid #262626;
     border-radius: 20px;
-}
-
-.card1 {
-    left: 119px;
-    top: 965px;
-}
-
-.card2 {
-    left: 532.36px;
-    top: 965px;
-}
-
-.card3 {
-    left: 944px;
-    top: 965px;
-}
-
-.card4 {
-    left: 119px;
-    top: 1418px;
-}
-
-.card5 {
-    left: 532.36px;
-    top: 1418px;
-}
-
-.card6 {
-    left: 944px;
-    top: 1418px;
 }
 
 .cardText {
